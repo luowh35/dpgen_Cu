@@ -1,0 +1,67 @@
+{
+  "api_version": "1.0",
+  "train":
+    {
+      "command": "dp",
+      "machine": {
+        "batch_type": "shell",
+        "context_type": "local",
+        "local_root": "./",
+        "remote_root": "./work"
+        }
+      },
+      "resources": {
+        "number_node": 1,
+        "cpu_per_node": 2,
+        "gpu_per_node": 0,
+        "queue_name": "tr_test",
+        "group_size": 1,
+        "para_deg": 3,
+      }
+    },
+  "model_devi":
+    {
+      "command": "lmp",
+      "machine":{
+        "batch_type": "shell",
+        "context_type": "local",
+        "local_root": "./",
+        "remote_root": "./work",
+        "_remote_profile": {
+          "_hostname": "172.22.42.29",
+          "_username": "zhanglei86",
+		"_password": "poincare_1234",
+		"_port": 22
+        }
+      },
+      "resources": {
+        "number_node": 1,
+        "cpu_per_node": 16,
+        "gpu_per_node": 0,
+        "queue_name": "model_devi",
+        "group_size": 1,
+		"_time_limit": "96:0:0",
+        "_source_list": ["/home/luowh35/deepmd-kit2"]
+      }
+    },
+  "fp":
+    {
+      "command": "qsub /home/luowh35/dp4cu/init/pbs.sh",
+      "_command": "qsub /home/luowh35/CH44dpgen/lsrun/pbs.sh ",
+      "machine":{
+        "batch_type": "shell",
+        "context_type": "local",
+        "local_root": "./",
+        "remote_root": "./work"
+      },
+      "resources": {
+        "number_node": 1,
+        "cpu_per_node": 48,
+        "gpu_per_node": 0,
+        "queue_name": "fp",
+        "group_size": 100,
+		"_time_limit": "100:00:00",
+        "_source_list":["qsub /home/luowh35/CH44dpgen/CH44dpgen/pbs.sh"]
+      }
+    }
+}

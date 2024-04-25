@@ -1,0 +1,62 @@
+2023-03-31 00:36:35,442 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 00:36:35,443 - INFO : WARNING: your set-up for MD steps in PARAM and md_incar are not consistent!
+2023-03-31 00:36:35,443 - INFO : MD steps in PARAM is 10
+2023-03-31 00:36:35,443 - INFO : MD steps in md_incar is 0
+2023-03-31 00:36:35,443 - INFO : DP-GEN will use settings in md_incar!
+2023-03-31 00:36:35,443 - INFO : Elements are Cu
+2023-03-31 00:36:35,443 - INFO : Current stage is 1, relax
+2023-03-31 00:36:35,454 - INFO : [32]
+2023-03-31 00:46:28,510 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 00:46:28,511 - INFO : Elements are Cu
+2023-03-31 00:46:28,511 - INFO : Current stage is 1, relax
+2023-03-31 00:46:28,522 - INFO : [32]
+2023-03-31 00:46:28,574 - INFO : Current stage is 2, perturb and scale
+2023-03-31 00:46:49,365 - INFO : Current stage is 3, run a short md
+2023-03-31 11:13:30,783 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 11:13:30,784 - INFO : Elements are Cu
+2023-03-31 11:13:30,784 - INFO : Current stage is 1, relax
+2023-03-31 11:13:30,794 - INFO : [32]
+2023-03-31 11:13:31,862 - INFO : Current stage is 2, perturb and scale
+2023-03-31 11:13:48,114 - INFO : Current stage is 3, run a short md
+2023-03-31 11:13:48,297 - INFO : Current stage is 4, collect data
+2023-03-31 18:45:24,039 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 18:45:24,042 - INFO : Elements are Cu
+2023-03-31 18:45:24,042 - INFO : Current stage is 1, relax
+2023-03-31 18:45:24,059 - INFO : [32]
+2023-03-31 18:48:21,904 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 18:48:21,906 - INFO : Elements are Cu
+2023-03-31 18:48:21,906 - INFO : Current stage is 1, relax
+2023-03-31 18:48:21,916 - INFO : [32]
+2023-03-31 18:49:48,316 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 18:49:48,318 - INFO : Elements are Cu
+2023-03-31 18:49:48,318 - INFO : Current stage is 1, relax
+2023-03-31 18:49:48,328 - INFO : [32]
+2023-03-31 18:58:23,195 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 18:58:23,196 - INFO : Elements are Cu
+2023-03-31 18:58:23,196 - INFO : Current stage is 1, relax
+2023-03-31 18:58:23,207 - INFO : [32]
+2023-03-31 19:44:21,101 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 19:44:21,102 - INFO : Elements are Cu
+2023-03-31 19:44:21,102 - INFO : Current stage is 1, relax
+2023-03-31 19:44:21,112 - INFO : [32]
+2023-03-31 19:45:14,717 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 19:45:14,719 - INFO : Elements are Cu
+2023-03-31 19:45:14,719 - INFO : Current stage is 1, relax
+2023-03-31 19:45:14,729 - INFO : [32]
+2023-03-31 19:46:21,173 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 19:46:21,174 - INFO : Elements are Cu
+2023-03-31 19:46:21,174 - INFO : Current stage is 1, relax
+2023-03-31 19:46:21,185 - INFO : [32]
+2023-03-31 21:15:09,302 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-03-31 21:15:09,303 - INFO : Elements are Cu
+2023-03-31 21:15:09,304 - INFO : Current stage is 1, relax
+2023-03-31 21:15:09,314 - INFO : [32]
+2023-03-31 21:15:09,369 - INFO : Current stage is 2, perturb and scale
+2023-03-31 21:15:11,373 - INFO : Current stage is 3, run a short md
+2023-04-01 09:19:02,447 - INFO : # working dir POSCAR_supercell.01x01x01
+2023-04-01 09:19:02,448 - INFO : Elements are Cu
+2023-04-01 09:19:02,448 - INFO : Current stage is 1, relax
+2023-04-01 09:19:02,458 - INFO : [32]
+2023-04-01 09:19:03,519 - INFO : Current stage is 2, perturb and scale
+2023-04-01 09:19:05,406 - INFO : Current stage is 3, run a short md
+2023-04-01 09:19:05,550 - INFO : Current stage is 4, collect data

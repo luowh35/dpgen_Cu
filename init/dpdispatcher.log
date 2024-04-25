@@ -1,0 +1,44 @@
+2023-03-31 00:36:35,459 - INFO : info:check_all_finished: False
+2023-03-31 00:36:35,466 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb submit; job_id is 76053
+2023-03-31 00:36:36,512 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 76053 finished
+2023-03-31 00:46:28,529 - INFO : Find old submission; recover submission from json file;submission.submission_hash:f4f6eddbd0f9d639d6c0fd72c6e76a06ccb95241; machine.context.remote_root:/home/luowh35/dp4cu/init/work/f4f6eddbd0f9d639d6c0fd72c6e76a06ccb95241; submission.work_base:POSCAR_supercell.01x01x01/00.place_ele;
+2023-03-31 00:46:28,569 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 76053 finished
+2023-03-31 00:46:28,570 - INFO : info:check_all_finished: True
+2023-03-31 00:46:49,394 - INFO : info:check_all_finished: False
+2023-03-31 00:46:49,419 - INFO : job: 984746be5a758abdb28b9275d830ac85727b2290 submit; job_id is 122355
+2023-03-31 00:47:20,572 - INFO : job: 984746be5a758abdb28b9275d830ac85727b2290 122355 finished
+2023-03-31 11:13:30,799 - INFO : info:check_all_finished: False
+2023-03-31 11:13:30,807 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb submit; job_id is 71425
+2023-03-31 11:13:31,849 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 71425 finished
+2023-03-31 11:13:48,148 - INFO : Find old submission; recover submission from json file;submission.submission_hash:2f8c6b1f417dd1c39e6078256d9d417085d846c4; machine.context.remote_root:/home/luowh35/dp4cu/init/work/2f8c6b1f417dd1c39e6078256d9d417085d846c4; submission.work_base:POSCAR_supercell.01x01x01/02.md;
+2023-03-31 11:13:48,188 - INFO : job: 984746be5a758abdb28b9275d830ac85727b2290 122355 finished
+2023-03-31 11:13:48,188 - INFO : info:check_all_finished: True
+2023-03-31 18:45:24,064 - INFO : info:check_all_finished: False
+2023-03-31 18:45:24,072 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb submit; job_id is 31866
+2023-03-31 18:45:25,112 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 31866 finished
+2023-03-31 18:48:21,921 - INFO : info:check_all_finished: False
+2023-03-31 18:49:48,333 - INFO : info:check_all_finished: False
+2023-03-31 18:58:23,211 - INFO : info:check_all_finished: False
+2023-03-31 18:58:23,220 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb submit; job_id is 90442
+2023-03-31 18:58:24,263 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 90442 finished
+2023-03-31 19:44:21,117 - INFO : info:check_all_finished: False
+2023-03-31 19:44:21,125 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb submit; job_id is 43914
+2023-03-31 19:44:22,168 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 43914 finished
+2023-03-31 19:45:14,736 - INFO : Find old submission; recover submission from json file;submission.submission_hash:f4f6eddbd0f9d639d6c0fd72c6e76a06ccb95241; machine.context.remote_root:/home/luowh35/dp4cu/init/work/f4f6eddbd0f9d639d6c0fd72c6e76a06ccb95241; submission.work_base:POSCAR_supercell.01x01x01/00.place_ele;
+2023-03-31 19:45:14,775 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 43914 finished
+2023-03-31 19:45:14,775 - INFO : info:check_all_finished: True
+2023-03-31 19:46:21,189 - INFO : info:check_all_finished: False
+2023-03-31 19:46:21,197 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb submit; job_id is 52985
+2023-03-31 19:46:22,242 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 52985 finished
+2023-03-31 21:15:09,321 - INFO : Find old submission; recover submission from json file;submission.submission_hash:f4f6eddbd0f9d639d6c0fd72c6e76a06ccb95241; machine.context.remote_root:/home/luowh35/dp4cu/init/work/f4f6eddbd0f9d639d6c0fd72c6e76a06ccb95241; submission.work_base:POSCAR_supercell.01x01x01/00.place_ele;
+2023-03-31 21:15:09,364 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 52985 finished
+2023-03-31 21:15:09,364 - INFO : info:check_all_finished: True
+2023-03-31 21:15:11,393 - INFO : info:check_all_finished: False
+2023-03-31 21:15:11,422 - INFO : job: d4d5ef9fb243fbb7e26c6ca7303d21de1383b995 submit; job_id is 108126
+2023-03-31 21:15:42,581 - INFO : job: d4d5ef9fb243fbb7e26c6ca7303d21de1383b995 108126 finished
+2023-04-01 09:19:02,463 - INFO : info:check_all_finished: False
+2023-04-01 09:19:02,471 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb submit; job_id is 56614
+2023-04-01 09:19:03,515 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 56614 finished
+2023-04-01 09:19:05,434 - INFO : Find old submission; recover submission from json file;submission.submission_hash:e70f476ddce460fc22a17519d79e8e739c78692b; machine.context.remote_root:/home/luowh35/dp4cu/init/work/e70f476ddce460fc22a17519d79e8e739c78692b; submission.work_base:POSCAR_supercell.01x01x01/02.md;
+2023-04-01 09:19:05,475 - INFO : job: d4d5ef9fb243fbb7e26c6ca7303d21de1383b995 108126 finished
+2023-04-01 09:19:05,475 - INFO : info:check_all_finished: True

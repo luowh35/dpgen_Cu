@@ -1,0 +1,31 @@
+DeepModeling
+------------
+Version: 0.11.0
+Path:    /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/dpgen
+
+Dependency
+------------
+     numpy     1.22.3   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/numpy
+    dpdata     0.2.12   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/dpdata
+  pymatgen            unknown version or path
+     monty  2022.1.19   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/monty
+       ase     3.22.1   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/ase
+  paramiko     2.12.0   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/paramiko
+ custodian  2022.5.26   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/custodian
+
+Reference
+------------
+Please cite:
+Yuzhi Zhang, Haidi Wang, Weijie Chen, Jinzhe Zeng, Linfeng Zhang, Han Wang, and Weinan E,
+DP-GEN: A concurrent learning platform for the generation of reliable deep learning
+based potential energy models, Computer Physics Communications, 2020, 107206.
+------------
+
+Description
+------------
+2023-04-01 09:19:02,463 - INFO : info:check_all_finished: False
+2023-04-01 09:19:02,471 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb submit; job_id is 56614
+2023-04-01 09:19:03,515 - INFO : job: 7570a642a9f443efa41a30be3ea4c238948aa7bb 56614 finished
+2023-04-01 09:19:05,434 - INFO : Find old submission; recover submission from json file;submission.submission_hash:e70f476ddce460fc22a17519d79e8e739c78692b; machine.context.remote_root:/home/luowh35/dp4cu/init/work/e70f476ddce460fc22a17519d79e8e739c78692b; submission.work_base:POSCAR_supercell.01x01x01/02.md;
+2023-04-01 09:19:05,475 - INFO : job: d4d5ef9fb243fbb7e26c6ca7303d21de1383b995 108126 finished
+2023-04-01 09:19:05,475 - INFO : info:check_all_finished: True

@@ -1,0 +1,19 @@
+{
+    "stages":           [1,2,3,4],
+    "super_cell":       [1,1,1],
+    "elements":		["Cu"],
+    "from_poscar":	true,
+    "from_poscar_path":	"../vasprlt/POSCAR_supercell",
+    "_comments":  "Change according to structure of Cu",
+    "potcars":		["../vasprlt/POTCAR"],
+    "relax_incar": 	"../vasprlt/INCAR_rlx",
+    "md_incar" : 	"../vasprlt/INCAR_md",
+    "scale":		[1.00],
+    "skip_relax":	false,
+    "pert_numb":	50,
+    "md_nstep" : 	10,
+    "pert_box":	0.00,
+    "pert_atom":	0.01,
+    "coll_ndata":	5000,
+    "_comment":	"that's all"
+}
