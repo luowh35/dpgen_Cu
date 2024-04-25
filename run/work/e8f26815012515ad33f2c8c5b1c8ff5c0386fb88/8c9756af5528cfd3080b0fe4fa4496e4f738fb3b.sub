@@ -1,0 +1,32 @@
+
+#!/bin/bash -l
+
+
+
+REMOTE_ROOT=/home/luowh35/dp4cu/run/work/e8f26815012515ad33f2c8c5b1c8ff5c0386fb88
+echo 0 > $REMOTE_ROOT/8c9756af5528cfd3080b0fe4fa4496e4f738fb3b_flag_if_job_task_fail
+test $? -ne 0 && exit 1
+
+
+
+{ source /home/luowh35/nfor64core.sh; } 
+
+
+
+
+cd $REMOTE_ROOT
+cd 000
+test $? -ne 0 && exit 1
+if [ ! -f 7dd0baba3ae9abd4b1afaa21c4a3ba214633f5cf_task_tag_finished ] ;then
+   ( /bin/sh -c '{ if [ ! -f model.ckpt.index ]; then dp train input.json; else dp train input.json --restart model.ckpt; fi }'&&dp freeze ) 1>>train.log 2>>train.log 
+  if test $? -eq 0; then touch 7dd0baba3ae9abd4b1afaa21c4a3ba214633f5cf_task_tag_finished; else echo 1 > $REMOTE_ROOT/8c9756af5528cfd3080b0fe4fa4496e4f738fb3b_flag_if_job_task_fail;fi
+fi &
+
+
+cd $REMOTE_ROOT
+test $? -ne 0 && exit 1
+
+wait
+FLAG_IF_JOB_TASK_FAIL=$(cat 8c9756af5528cfd3080b0fe4fa4496e4f738fb3b_flag_if_job_task_fail)
+if test $FLAG_IF_JOB_TASK_FAIL -eq 0; then touch 8c9756af5528cfd3080b0fe4fa4496e4f738fb3b_job_tag_finished; else exit 1;fi
+

@@ -1,0 +1,93 @@
+{
+    "model": {
+        "type_map": [
+            "Cu"
+        ],
+        "descriptor": {
+            "type": "se_e2_a",
+            "sel": "auto",
+            "rcut_smth": 0.5,
+            "rcut": 10.0,
+            "neuron": [
+                25,
+                50,
+                100
+            ],
+            "resnet_dt": false,
+            "axis_neuron": 12,
+            "seed": 3562265906
+        },
+        "fitting_net": {
+            "neuron": [
+                120,
+                120,
+                120
+            ],
+            "resnet_dt": true,
+            "_coord_norm": true,
+            "_type_fitting_net": false,
+            "seed": 2656522106
+        }
+    },
+    "learning_rate": {
+        "type": "exp",
+        "start_lr": 0.001,
+        "decay_steps": 300,
+        "stop_lr": 3.505266624882874e-08
+    },
+    "loss": {
+        "start_pref_e": 0.02,
+        "limit_pref_e": 2,
+        "start_pref_f": 1000,
+        "limit_pref_f": 1,
+        "start_pref_v": 100,
+        "limit_pref_v": 1
+    },
+    "training": {
+        "stop_batch": 60000,
+        "disp_file": "lcurve.out",
+        "disp_freq": 1000,
+        "save_freq": 10000,
+        "save_ckpt": "model.ckpt",
+        "disp_training": true,
+        "time_training": true,
+        "profiling": false,
+        "profiling_file": "timeline.json",
+        "_comment": "that's all",
+        "seed": 3701002945,
+        "training_data": {
+            "systems": [
+                "../data.init/init/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd",
+                "../data.init/init1/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd",
+                "../data.init/init2/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd",
+                "../data.init/init3/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd",
+                "../data.init/init4/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd",
+                "../data.iters/iter.000001/02.fp/data.000",
+                "../data.iters/iter.000002/02.fp/data.000",
+                "../data.iters/iter.000003/02.fp/data.001",
+                "../data.iters/iter.000004/02.fp/data.001",
+                "../data.iters/iter.000004/02.fp/data.000",
+                "../data.iters/iter.000005/02.fp/data.001",
+                "../data.iters/iter.000005/02.fp/data.000",
+                "../data.iters/iter.000006/02.fp/data.001",
+                "../data.iters/iter.000006/02.fp/data.000"
+            ],
+            "batch_size": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        }
+    }
+}

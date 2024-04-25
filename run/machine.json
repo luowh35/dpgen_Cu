@@ -1,0 +1,78 @@
+{
+  "api_version": "1.0",
+  "train":
+    {
+      "command": "dp",
+      "machine": {
+        "batch_type": "shell",
+        "context_type": "local",
+        "local_root": "./",
+        "remote_root": "./work",
+        "_remote_profile": {
+            "_hostname": "172.22.42.29",
+            "_username": "zhanglei86",
+	    "_password": "poincare_1234",
+	    "_port": 22
+        }
+      },
+      "resources": {
+        "number_node": 1,
+        "cpu_per_node": 64,
+        "gpu_per_node": 0,
+        "queue_name": "tr_test",
+        "group_size": 1,
+	"_time_limit": "23:0:0",
+        "_custom_flags":["#SBATCH --mem=32G"],
+        "_strategy": {"if_cuda_multi_devices": true},
+        "para_deg": 4,
+        "source_list": ["/home/luowh35/nfor64core.sh"]
+      }
+    },
+  "model_devi":
+    {
+      "command": "mpirun -np 4 lmp",
+      "machine":{
+        "batch_type": "shell",
+        "context_type": "local",
+        "local_root": "./",
+        "remote_root": "./work",
+        "_remote_profile": {
+          "_hostname": "172.22.42.29",
+          "_username": "zhanglei86",
+		"_password": "poincare_1234",
+		"_port": 22
+        }
+      },
+      "resources": {
+        "number_node": 1,
+        "cpu_per_node": 64,
+        "gpu_per_node": 0,
+        "queue_name": "model_devi",
+        "group_size": 4,
+		"_time_limit": "96:0:0",
+        "source_list": ["/home/luowh35/dprun/Si/Sirun/lmp_dp.sh",
+	"/home/luowh35/nfor64core.sh"
+	]
+      }
+    },
+  "fp":
+    {
+      "command": "mpirun -np 16 vasp_std",
+      "_command": "qsub /home/luowh35/CH44dpgen/lsrun/pbs.sh ",
+      "machine":{
+        "batch_type": "shell",
+        "context_type": "local",
+        "local_root": "./",
+        "remote_root": "./work"
+      },
+      "resources": {
+        "number_node": 1,
+        "cpu_per_node": 64,
+        "gpu_per_node": 0,
+        "queue_name": "fp",
+        "group_size": 15,
+		"_time_limit": "100:00:00",
+        "_source_list":["qsub /home/luowh35/CH44dpgen/CH44dpgen/pbs.sh"]
+      }
+    }
+}

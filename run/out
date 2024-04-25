@@ -1,0 +1,81 @@
+DeepModeling
+------------
+Version: 0.11.0
+Path:    /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/dpgen
+
+Dependency
+------------
+     numpy     1.22.3   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/numpy
+    dpdata     0.2.12   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/dpdata
+  pymatgen            unknown version or path
+     monty  2022.1.19   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/monty
+       ase     3.22.1   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/ase
+  paramiko     2.12.0   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/paramiko
+ custodian  2022.5.26   /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/custodian
+
+Reference
+------------
+Please cite:
+Yuzhi Zhang, Haidi Wang, Weijie Chen, Jinzhe Zeng, Linfeng Zhang, Han Wang, and Weinan E,
+DP-GEN: A concurrent learning platform for the generation of reliable deep learning
+based potential energy models, Computer Physics Communications, 2020, 107206.
+------------
+
+Description
+------------
+2023-03-27 09:25:22,403 - INFO : info:check_all_finished: False
+2023-03-27 09:25:22,629 - INFO : job: 0e9e766c07d9226dedb21155fa88fe431f0d5f09 submit; job_id is 61053
+2023-03-27 09:25:22,650 - INFO : job: cb8a839ccacf6a4339672b7625871321829f767c submit; job_id is 61056
+2023-03-27 09:25:22,671 - INFO : job: fb35b725f3c16bc4dfa46b5f2c2f329d203671ab submit; job_id is 61062
+2023-03-27 09:25:22,692 - INFO : job: 8c9756af5528cfd3080b0fe4fa4496e4f738fb3b submit; job_id is 61068
+2023-03-27 12:01:42,396 - INFO : job: 8c9756af5528cfd3080b0fe4fa4496e4f738fb3b 61068 finished
+2023-03-27 12:02:42,742 - INFO : job: 0e9e766c07d9226dedb21155fa88fe431f0d5f09 61053 finished
+2023-03-27 12:04:13,439 - INFO : job: cb8a839ccacf6a4339672b7625871321829f767c 61056 finished
+2023-03-27 12:05:13,805 - INFO : job: fb35b725f3c16bc4dfa46b5f2c2f329d203671ab 61062 finished
+2023-03-27 12:05:15,864 - INFO : info:check_all_finished: False
+2023-03-27 12:05:16,349 - INFO : job: f479f2123ce7100c518d3c44ac9926fbbc75ea3c submit; job_id is 6697
+2023-03-27 12:05:16,372 - INFO : job: fe40437aad8a89a0eb16ae6fa376bb58f41ab323 submit; job_id is 6699
+2023-03-27 12:05:16,394 - INFO : job: 70ead21c90909ba286f596ddbe77e581ee2a8ba0 submit; job_id is 6708
+2023-03-27 12:05:16,415 - INFO : job: 7a38bb1b6c01aa2e8c38fd040789d4712a77fdb8 submit; job_id is 6717
+2023-03-27 12:05:16,436 - INFO : job: 1b4e3b7f879e15ab3e083aaf8814689221342814 submit; job_id is 6724
+2023-03-27 12:05:16,457 - INFO : job: 39a0bd2b17803a7ac45fccb9bf5594b38a7dbfb6 submit; job_id is 6731
+2023-03-27 12:05:16,479 - INFO : job: 1fee9deae46df30e50b7a6075febca8e5499f17d submit; job_id is 6739
+2023-03-27 12:05:16,499 - INFO : job: 6131b87e4632446db4df914c24d3c0559456f920 submit; job_id is 6748
+2023-03-27 12:05:16,521 - INFO : job: c38f29080424d6ff5645aec2abf865d1c7328fb4 submit; job_id is 6756
+2023-03-27 12:05:16,556 - INFO : job: 5dbad0a2df3e66a347c21e78bcea85c394428805 submit; job_id is 6763
+2023-03-27 12:05:16,582 - INFO : job: 4126d9aed6ab998adc8eb3ee52a8d874f4c26a73 submit; job_id is 6777
+2023-03-27 12:05:16,609 - INFO : job: 4a6f5bf7ab02e2c0511ad8e9020b05179ba715bf submit; job_id is 6783
+2023-03-27 12:05:16,633 - INFO : job: 87e8f61f133a0ab4c55139cac2701892e0d53eaa submit; job_id is 6789
+2023-03-27 12:05:16,659 - INFO : job: d260bcf1c1e32f5503e5b22bf6e9b99d23bb0d43 submit; job_id is 6796
+2023-03-27 12:05:16,686 - INFO : job: 480d380c25626f899ddc20a4fc5195f99ef80714 submit; job_id is 6804
+2023-03-27 12:05:16,720 - INFO : job: 4426b794386eabf81e543efdbbd0de78b7cb9fb6 submit; job_id is 6811
+2023-03-27 12:11:38,145 - INFO : job: 4426b794386eabf81e543efdbbd0de78b7cb9fb6 6811 finished
+2023-03-27 12:13:16,556 - INFO : job: fe40437aad8a89a0eb16ae6fa376bb58f41ab323 6699 finished
+2023-03-27 12:13:16,688 - INFO : job: 7a38bb1b6c01aa2e8c38fd040789d4712a77fdb8 6717 finished
+2023-03-27 12:13:16,730 - INFO : job: 1b4e3b7f879e15ab3e083aaf8814689221342814 6724 finished
+2023-03-27 12:13:16,855 - INFO : job: 1fee9deae46df30e50b7a6075febca8e5499f17d 6739 finished
+2023-03-27 12:13:16,913 - INFO : job: 6131b87e4632446db4df914c24d3c0559456f920 6748 finished
+2023-03-27 12:13:16,984 - INFO : job: c38f29080424d6ff5645aec2abf865d1c7328fb4 6756 finished
+2023-03-27 12:13:17,244 - INFO : job: 4a6f5bf7ab02e2c0511ad8e9020b05179ba715bf 6783 finished
+2023-03-27 12:13:17,389 - INFO : job: d260bcf1c1e32f5503e5b22bf6e9b99d23bb0d43 6796 finished
+2023-03-27 12:13:17,429 - INFO : job: 480d380c25626f899ddc20a4fc5195f99ef80714 6804 finished
+2023-03-27 12:13:47,478 - INFO : job: f479f2123ce7100c518d3c44ac9926fbbc75ea3c 6697 finished
+2023-03-27 12:13:47,560 - INFO : job: 39a0bd2b17803a7ac45fccb9bf5594b38a7dbfb6 6731 finished
+2023-03-27 12:13:47,594 - INFO : job: 5dbad0a2df3e66a347c21e78bcea85c394428805 6763 finished
+2023-03-27 12:14:17,803 - INFO : job: 70ead21c90909ba286f596ddbe77e581ee2a8ba0 6708 finished
+2023-03-27 12:14:17,859 - INFO : job: 4126d9aed6ab998adc8eb3ee52a8d874f4c26a73 6777 finished
+2023-03-27 12:14:17,905 - INFO : job: 87e8f61f133a0ab4c55139cac2701892e0d53eaa 6789 finished
+2023-03-27 12:14:21,500 - INFO : info:check_all_finished: False
+2023-03-27 12:14:22,058 - INFO : job: c2a29e119090a2a6e391b47620c5c02677064d01 submit; job_id is 13629
+2023-03-27 12:14:22,080 - INFO : job: d63b297e70436eff1960f2f644db27d552443f0a submit; job_id is 13633
+2023-03-27 12:14:22,102 - INFO : job: c500f070126bd4620de31db04604761caa91b5cb submit; job_id is 13641
+2023-03-27 12:14:22,148 - INFO : job: fc51b41c8d507748619e12100fc0ad6dae849003 submit; job_id is 13655
+2023-03-27 15:59:13,314 - INFO : job: d63b297e70436eff1960f2f644db27d552443f0a 13633 finished
+2023-03-27 16:01:45,375 - INFO : job: c2a29e119090a2a6e391b47620c5c02677064d01 13629 finished
+2023-03-27 16:03:46,594 - INFO : job: c500f070126bd4620de31db04604761caa91b5cb 13641 finished
+2023-03-27 16:12:49,531 - INFO : job: fc51b41c8d507748619e12100fc0ad6dae849003 13655 finished
+2023-03-27 16:12:58,805 - INFO : info:check_all_finished: False
+2023-03-27 16:12:59,061 - INFO : job: 0e9e766c07d9226dedb21155fa88fe431f0d5f09 submit; job_id is 27204
+2023-03-27 16:12:59,090 - INFO : job: cb8a839ccacf6a4339672b7625871321829f767c submit; job_id is 27209
+2023-03-27 16:12:59,111 - INFO : job: fb35b725f3c16bc4dfa46b5f2c2f329d203671ab submit; job_id is 27214
+2023-03-27 16:12:59,132 - INFO : job: 8c9756af5528cfd3080b0fe4fa4496e4f738fb3b submit; job_id is 27219

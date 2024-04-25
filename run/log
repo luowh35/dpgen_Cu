@@ -1,0 +1,21 @@
+INFO:dpgen:-------------------------iter.000006 task 01--------------------------
+INFO:dpgen:-------------------------iter.000006 task 02--------------------------
+INFO:dpgen:-------------------------iter.000006 task 03--------------------------
+INFO:dpgen:-------------------------iter.000006 task 04--------------------------
+INFO:dpgen:-------------------------iter.000006 task 05--------------------------
+INFO:dpgen:-------------------------iter.000006 task 06--------------------------
+INFO:dpgen:system 000 candidate :   1913 in   3159  60.56 %
+INFO:dpgen:system 000 failed    :   1246 in   3159  39.44 %
+INFO:dpgen:system 000 accurate  :      0 in   3159   0.00 %
+INFO:dpgen:system 000 accurate_ratio:   0.0000    thresholds: 1.0000 and 1.0000   eff. task min and max   -1   30   number of fp tasks:     30
+INFO:dpgen:system 001 candidate :   1031 in   1944  53.03 %
+INFO:dpgen:system 001 failed    :    913 in   1944  46.97 %
+INFO:dpgen:system 001 accurate  :      0 in   1944   0.00 %
+INFO:dpgen:system 001 accurate_ratio:   0.0000    thresholds: 1.0000 and 1.0000   eff. task min and max   -1   30   number of fp tasks:     30
+INFO:dpgen:-------------------------iter.000006 task 07--------------------------
+INFO:dpgen:-------------------------iter.000006 task 08--------------------------
+INFO:dpgen:failed frame:      0 in     60    0.00 % 
+INFO:dpgen:failed tasks:      0 in     60    0.00 % 
+INFO:dpgen:=============================iter.000007==============================
+INFO:dpgen:-------------------------iter.000007 task 00--------------------------
+INFO:dpgen:-------------------------iter.000007 task 01--------------------------

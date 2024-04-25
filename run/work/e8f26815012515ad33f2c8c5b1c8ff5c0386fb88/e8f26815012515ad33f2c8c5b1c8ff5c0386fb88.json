@@ -1,0 +1,276 @@
+{
+    "work_base": "iter.000007/00.train",
+    "_abs_work_base": "/home/luowh35/dp4cu/run/iter.000007/00.train",
+    "machine": {
+        "batch_type": "Shell",
+        "context_type": "LocalContext",
+        "local_root": "/home/luowh35/dp4cu/run",
+        "remote_root": "./work",
+        "remote_profile": {}
+    },
+    "resources": {
+        "number_node": 1,
+        "cpu_per_node": 64,
+        "gpu_per_node": 0,
+        "queue_name": "tr_test",
+        "group_size": 1,
+        "custom_flags": [],
+        "strategy": {
+            "if_cuda_multi_devices": false,
+            "ratio_unfinished": 0.0
+        },
+        "para_deg": 4,
+        "module_purge": false,
+        "module_unload_list": [],
+        "module_list": [],
+        "source_list": [
+            "/home/luowh35/nfor64core.sh"
+        ],
+        "envs": {},
+        "wait_time": 0,
+        "kwargs": {}
+    },
+    "forward_common_files": [
+        "data.init/init/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/set.000",
+        "data.init/init/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type.raw",
+        "data.init/init/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type_map.raw",
+        "data.init/init1/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/set.000",
+        "data.init/init1/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type.raw",
+        "data.init/init1/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type_map.raw",
+        "data.init/init2/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/set.000",
+        "data.init/init2/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type.raw",
+        "data.init/init2/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type_map.raw",
+        "data.init/init3/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/set.000",
+        "data.init/init3/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type.raw",
+        "data.init/init3/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type_map.raw",
+        "data.init/init4/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/set.000",
+        "data.init/init4/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type.raw",
+        "data.init/init4/POSCAR_supercell.01x01x01/02.md/sys-0032/deepmd/type_map.raw",
+        "data.iters/iter.000001/02.fp/data.000/set.000",
+        "data.iters/iter.000001/02.fp/data.000/type.raw",
+        "data.iters/iter.000001/02.fp/data.000/type_map.raw",
+        "data.iters/iter.000002/02.fp/data.000/set.000",
+        "data.iters/iter.000002/02.fp/data.000/type.raw",
+        "data.iters/iter.000002/02.fp/data.000/type_map.raw",
+        "data.iters/iter.000003/02.fp/data.001/set.000",
+        "data.iters/iter.000003/02.fp/data.001/type.raw",
+        "data.iters/iter.000003/02.fp/data.001/type_map.raw",
+        "data.iters/iter.000004/02.fp/data.000/set.000",
+        "data.iters/iter.000004/02.fp/data.000/type.raw",
+        "data.iters/iter.000004/02.fp/data.000/type_map.raw",
+        "data.iters/iter.000004/02.fp/data.001/set.000",
+        "data.iters/iter.000004/02.fp/data.001/type.raw",
+        "data.iters/iter.000004/02.fp/data.001/type_map.raw",
+        "data.iters/iter.000005/02.fp/data.000/set.000",
+        "data.iters/iter.000005/02.fp/data.000/type.raw",
+        "data.iters/iter.000005/02.fp/data.000/type_map.raw",
+        "data.iters/iter.000005/02.fp/data.001/set.000",
+        "data.iters/iter.000005/02.fp/data.001/type.raw",
+        "data.iters/iter.000005/02.fp/data.001/type_map.raw",
+        "data.iters/iter.000006/02.fp/data.000/set.000",
+        "data.iters/iter.000006/02.fp/data.000/type.raw",
+        "data.iters/iter.000006/02.fp/data.000/type_map.raw",
+        "data.iters/iter.000006/02.fp/data.001/set.000",
+        "data.iters/iter.000006/02.fp/data.001/type.raw",
+        "data.iters/iter.000006/02.fp/data.001/type_map.raw"
+    ],
+    "backward_common_files": [],
+    "belonging_jobs": [
+        {
+            "0e9e766c07d9226dedb21155fa88fe431f0d5f09": {
+                "job_task_list": [
+                    {
+                        "command": "/bin/sh -c '{ if [ ! -f model.ckpt.index ]; then dp train input.json; else dp train input.json --restart model.ckpt; fi }'&&dp freeze",
+                        "task_work_path": "002",
+                        "forward_files": [
+                            "input.json"
+                        ],
+                        "backward_files": [
+                            "frozen_model.pb",
+                            "lcurve.out",
+                            "train.log",
+                            "model.ckpt.meta",
+                            "model.ckpt.index",
+                            "model.ckpt.data-00000-of-00001",
+                            "checkpoint"
+                        ],
+                        "outlog": "train.log",
+                        "errlog": "train.log"
+                    }
+                ],
+                "resources": {
+                    "number_node": 1,
+                    "cpu_per_node": 64,
+                    "gpu_per_node": 0,
+                    "queue_name": "tr_test",
+                    "group_size": 1,
+                    "custom_flags": [],
+                    "strategy": {
+                        "if_cuda_multi_devices": false,
+                        "ratio_unfinished": 0.0
+                    },
+                    "para_deg": 4,
+                    "module_purge": false,
+                    "module_unload_list": [],
+                    "module_list": [],
+                    "source_list": [
+                        "/home/luowh35/nfor64core.sh"
+                    ],
+                    "envs": {},
+                    "wait_time": 0,
+                    "kwargs": {}
+                },
+                "job_state": 2,
+                "job_id": 27204,
+                "fail_count": 0
+            }
+        },
+        {
+            "cb8a839ccacf6a4339672b7625871321829f767c": {
+                "job_task_list": [
+                    {
+                        "command": "/bin/sh -c '{ if [ ! -f model.ckpt.index ]; then dp train input.json; else dp train input.json --restart model.ckpt; fi }'&&dp freeze",
+                        "task_work_path": "001",
+                        "forward_files": [
+                            "input.json"
+                        ],
+                        "backward_files": [
+                            "frozen_model.pb",
+                            "lcurve.out",
+                            "train.log",
+                            "model.ckpt.meta",
+                            "model.ckpt.index",
+                            "model.ckpt.data-00000-of-00001",
+                            "checkpoint"
+                        ],
+                        "outlog": "train.log",
+                        "errlog": "train.log"
+                    }
+                ],
+                "resources": {
+                    "number_node": 1,
+                    "cpu_per_node": 64,
+                    "gpu_per_node": 0,
+                    "queue_name": "tr_test",
+                    "group_size": 1,
+                    "custom_flags": [],
+                    "strategy": {
+                        "if_cuda_multi_devices": false,
+                        "ratio_unfinished": 0.0
+                    },
+                    "para_deg": 4,
+                    "module_purge": false,
+                    "module_unload_list": [],
+                    "module_list": [],
+                    "source_list": [
+                        "/home/luowh35/nfor64core.sh"
+                    ],
+                    "envs": {},
+                    "wait_time": 0,
+                    "kwargs": {}
+                },
+                "job_state": 2,
+                "job_id": 27209,
+                "fail_count": 0
+            }
+        },
+        {
+            "fb35b725f3c16bc4dfa46b5f2c2f329d203671ab": {
+                "job_task_list": [
+                    {
+                        "command": "/bin/sh -c '{ if [ ! -f model.ckpt.index ]; then dp train input.json; else dp train input.json --restart model.ckpt; fi }'&&dp freeze",
+                        "task_work_path": "003",
+                        "forward_files": [
+                            "input.json"
+                        ],
+                        "backward_files": [
+                            "frozen_model.pb",
+                            "lcurve.out",
+                            "train.log",
+                            "model.ckpt.meta",
+                            "model.ckpt.index",
+                            "model.ckpt.data-00000-of-00001",
+                            "checkpoint"
+                        ],
+                        "outlog": "train.log",
+                        "errlog": "train.log"
+                    }
+                ],
+                "resources": {
+                    "number_node": 1,
+                    "cpu_per_node": 64,
+                    "gpu_per_node": 0,
+                    "queue_name": "tr_test",
+                    "group_size": 1,
+                    "custom_flags": [],
+                    "strategy": {
+                        "if_cuda_multi_devices": false,
+                        "ratio_unfinished": 0.0
+                    },
+                    "para_deg": 4,
+                    "module_purge": false,
+                    "module_unload_list": [],
+                    "module_list": [],
+                    "source_list": [
+                        "/home/luowh35/nfor64core.sh"
+                    ],
+                    "envs": {},
+                    "wait_time": 0,
+                    "kwargs": {}
+                },
+                "job_state": 2,
+                "job_id": 27214,
+                "fail_count": 0
+            }
+        },
+        {
+            "8c9756af5528cfd3080b0fe4fa4496e4f738fb3b": {
+                "job_task_list": [
+                    {
+                        "command": "/bin/sh -c '{ if [ ! -f model.ckpt.index ]; then dp train input.json; else dp train input.json --restart model.ckpt; fi }'&&dp freeze",
+                        "task_work_path": "000",
+                        "forward_files": [
+                            "input.json"
+                        ],
+                        "backward_files": [
+                            "frozen_model.pb",
+                            "lcurve.out",
+                            "train.log",
+                            "model.ckpt.meta",
+                            "model.ckpt.index",
+                            "model.ckpt.data-00000-of-00001",
+                            "checkpoint"
+                        ],
+                        "outlog": "train.log",
+                        "errlog": "train.log"
+                    }
+                ],
+                "resources": {
+                    "number_node": 1,
+                    "cpu_per_node": 64,
+                    "gpu_per_node": 0,
+                    "queue_name": "tr_test",
+                    "group_size": 1,
+                    "custom_flags": [],
+                    "strategy": {
+                        "if_cuda_multi_devices": false,
+                        "ratio_unfinished": 0.0
+                    },
+                    "para_deg": 4,
+                    "module_purge": false,
+                    "module_unload_list": [],
+                    "module_list": [],
+                    "source_list": [
+                        "/home/luowh35/nfor64core.sh"
+                    ],
+                    "envs": {},
+                    "wait_time": 0,
+                    "kwargs": {}
+                },
+                "job_state": 2,
+                "job_id": 27219,
+                "fail_count": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,393 @@
+WARNING:tensorflow:From /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/tensorflow/python/compat/v2_compat.py:107: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:root:Environment variable KMP_BLOCKTIME is empty. Use the default value 0
+WARNING:root:Environment variable KMP_AFFINITY is empty. Use the default value granularity=fine,verbose,compact,1,0
+/home/luowh35/deepmd-kit2/lib/python3.10/importlib/__init__.py:169: UserWarning: The NumPy module was reloaded (imported a second time). This can in some cases result in small but subtle issues and is discouraged.
+  _bootstrap._exec(spec, module)
+/home/luowh35/deepmd-kit2/lib/python3.10/site-packages/deepmd/utils/compat.py:316: UserWarning: It seems that you are using a deepmd-kit input of version 1.x.x, which is deprecated. we have converted the input to >2.0.0 compatible
+  warnings.warn(msg)
+DEEPMD INFO    Calculate neighbor statistics... (add --skip-neighbor-stat to skip this step)
+OMP: Info #155: KMP_AFFINITY: Initial OS proc set respected: 0-63
+OMP: Info #216: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #157: KMP_AFFINITY: 64 available OS procs
+OMP: Info #158: KMP_AFFINITY: Uniform topology
+OMP: Info #287: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #287: KMP_AFFINITY: topology layer "L3 cache" is equivalent to "socket".
+OMP: Info #287: KMP_AFFINITY: topology layer "L2 cache" is equivalent to "core".
+OMP: Info #287: KMP_AFFINITY: topology layer "L1 cache" is equivalent to "core".
+OMP: Info #192: KMP_AFFINITY: 2 sockets x 32 cores/socket x 1 thread/core (64 total cores)
+OMP: Info #218: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #172: KMP_AFFINITY: OS proc 0 maps to socket 0 core 0 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 1 maps to socket 0 core 1 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 2 maps to socket 0 core 2 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 3 maps to socket 0 core 3 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 4 maps to socket 0 core 4 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 5 maps to socket 0 core 5 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 6 maps to socket 0 core 6 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 7 maps to socket 0 core 7 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 8 maps to socket 0 core 8 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 9 maps to socket 0 core 9 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 10 maps to socket 0 core 10 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 11 maps to socket 0 core 11 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 12 maps to socket 0 core 12 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 13 maps to socket 0 core 13 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 14 maps to socket 0 core 14 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 15 maps to socket 0 core 15 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 16 maps to socket 0 core 16 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 17 maps to socket 0 core 17 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 18 maps to socket 0 core 18 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 19 maps to socket 0 core 19 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 20 maps to socket 0 core 20 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 21 maps to socket 0 core 21 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 22 maps to socket 0 core 22 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 23 maps to socket 0 core 23 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 24 maps to socket 0 core 24 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 25 maps to socket 0 core 25 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 26 maps to socket 0 core 26 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 27 maps to socket 0 core 27 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 28 maps to socket 0 core 28 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 29 maps to socket 0 core 29 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 30 maps to socket 0 core 30 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 31 maps to socket 0 core 31 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 32 maps to socket 1 core 0 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 33 maps to socket 1 core 1 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 34 maps to socket 1 core 2 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 35 maps to socket 1 core 3 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 36 maps to socket 1 core 4 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 37 maps to socket 1 core 5 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 38 maps to socket 1 core 6 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 39 maps to socket 1 core 7 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 40 maps to socket 1 core 8 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 41 maps to socket 1 core 9 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 42 maps to socket 1 core 10 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 43 maps to socket 1 core 11 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 44 maps to socket 1 core 12 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 45 maps to socket 1 core 13 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 46 maps to socket 1 core 14 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 47 maps to socket 1 core 15 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 48 maps to socket 1 core 16 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 49 maps to socket 1 core 17 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 50 maps to socket 1 core 18 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 51 maps to socket 1 core 19 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 52 maps to socket 1 core 20 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 53 maps to socket 1 core 21 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 54 maps to socket 1 core 22 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 55 maps to socket 1 core 23 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 56 maps to socket 1 core 24 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 57 maps to socket 1 core 25 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 58 maps to socket 1 core 26 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 59 maps to socket 1 core 27 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 60 maps to socket 1 core 28 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 61 maps to socket 1 core 29 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 62 maps to socket 1 core 30 thread 0 
+OMP: Info #172: KMP_AFFINITY: OS proc 63 maps to socket 1 core 31 thread 0 
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27585 thread 0 bound to OS proc set 0
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27584 thread 1 bound to OS proc set 1
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27709 thread 2 bound to OS proc set 2
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27712 thread 4 bound to OS proc set 4
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27713 thread 5 bound to OS proc set 5
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27717 thread 7 bound to OS proc set 7
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27710 thread 3 bound to OS proc set 3
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27715 thread 6 bound to OS proc set 6
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27719 thread 8 bound to OS proc set 8
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27724 thread 10 bound to OS proc set 10
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27722 thread 9 bound to OS proc set 9
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27730 thread 12 bound to OS proc set 12
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27727 thread 11 bound to OS proc set 11
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27736 thread 15 bound to OS proc set 15
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27732 thread 13 bound to OS proc set 13
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27739 thread 16 bound to OS proc set 16
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27733 thread 14 bound to OS proc set 14
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27741 thread 17 bound to OS proc set 17
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27742 thread 18 bound to OS proc set 18
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27747 thread 21 bound to OS proc set 21
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27748 thread 22 bound to OS proc set 22
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27745 thread 19 bound to OS proc set 19
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27749 thread 23 bound to OS proc set 23
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27746 thread 20 bound to OS proc set 20
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27755 thread 24 bound to OS proc set 24
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27758 thread 25 bound to OS proc set 25
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27765 thread 26 bound to OS proc set 26
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27771 thread 28 bound to OS proc set 28
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27769 thread 27 bound to OS proc set 27
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27776 thread 31 bound to OS proc set 31
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27775 thread 30 bound to OS proc set 30
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27774 thread 29 bound to OS proc set 29
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27778 thread 32 bound to OS proc set 32
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27779 thread 33 bound to OS proc set 33
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27780 thread 34 bound to OS proc set 34
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27783 thread 36 bound to OS proc set 36
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27785 thread 37 bound to OS proc set 37
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27781 thread 35 bound to OS proc set 35
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27787 thread 38 bound to OS proc set 38
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27788 thread 39 bound to OS proc set 39
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27792 thread 42 bound to OS proc set 42
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27790 thread 40 bound to OS proc set 40
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27791 thread 41 bound to OS proc set 41
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27797 thread 43 bound to OS proc set 43
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27801 thread 44 bound to OS proc set 44
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27803 thread 46 bound to OS proc set 46
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27802 thread 45 bound to OS proc set 45
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27809 thread 48 bound to OS proc set 48
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27807 thread 47 bound to OS proc set 47
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27811 thread 49 bound to OS proc set 49
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27812 thread 50 bound to OS proc set 50
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27813 thread 51 bound to OS proc set 51
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27815 thread 53 bound to OS proc set 53
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27814 thread 52 bound to OS proc set 52
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27816 thread 54 bound to OS proc set 54
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27819 thread 55 bound to OS proc set 55
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27822 thread 57 bound to OS proc set 57
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27821 thread 56 bound to OS proc set 56
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27824 thread 58 bound to OS proc set 58
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27826 thread 59 bound to OS proc set 59
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27828 thread 60 bound to OS proc set 60
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27830 thread 62 bound to OS proc set 62
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27829 thread 61 bound to OS proc set 61
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27832 thread 64 bound to OS proc set 0
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27831 thread 63 bound to OS proc set 63
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27583 thread 65 bound to OS proc set 1
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27838 thread 68 bound to OS proc set 4
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27834 thread 66 bound to OS proc set 2
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27836 thread 67 bound to OS proc set 3
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27844 thread 70 bound to OS proc set 6
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27845 thread 71 bound to OS proc set 7
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27843 thread 69 bound to OS proc set 5
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27846 thread 72 bound to OS proc set 8
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27854 thread 75 bound to OS proc set 11
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27847 thread 73 bound to OS proc set 9
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27849 thread 74 bound to OS proc set 10
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27857 thread 77 bound to OS proc set 13
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27855 thread 76 bound to OS proc set 12
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27864 thread 79 bound to OS proc set 15
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27863 thread 78 bound to OS proc set 14
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27866 thread 80 bound to OS proc set 16
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27873 thread 83 bound to OS proc set 19
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27870 thread 81 bound to OS proc set 17
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27871 thread 82 bound to OS proc set 18
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27875 thread 84 bound to OS proc set 20
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27876 thread 85 bound to OS proc set 21
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27880 thread 87 bound to OS proc set 23
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27878 thread 86 bound to OS proc set 22
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27882 thread 88 bound to OS proc set 24
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27883 thread 89 bound to OS proc set 25
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27888 thread 90 bound to OS proc set 26
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27889 thread 91 bound to OS proc set 27
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27892 thread 92 bound to OS proc set 28
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27894 thread 93 bound to OS proc set 29
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27898 thread 94 bound to OS proc set 30
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27899 thread 95 bound to OS proc set 31
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27900 thread 96 bound to OS proc set 32
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27901 thread 97 bound to OS proc set 33
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27902 thread 98 bound to OS proc set 34
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27903 thread 99 bound to OS proc set 35
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27904 thread 100 bound to OS proc set 36
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27906 thread 102 bound to OS proc set 38
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27907 thread 103 bound to OS proc set 39
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27905 thread 101 bound to OS proc set 37
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27908 thread 104 bound to OS proc set 40
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27909 thread 105 bound to OS proc set 41
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27910 thread 106 bound to OS proc set 42
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27913 thread 109 bound to OS proc set 45
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27912 thread 108 bound to OS proc set 44
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27911 thread 107 bound to OS proc set 43
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27914 thread 110 bound to OS proc set 46
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27917 thread 113 bound to OS proc set 49
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27916 thread 112 bound to OS proc set 48
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27915 thread 111 bound to OS proc set 47
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27918 thread 114 bound to OS proc set 50
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27920 thread 116 bound to OS proc set 52
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27919 thread 115 bound to OS proc set 51
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27921 thread 117 bound to OS proc set 53
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27922 thread 118 bound to OS proc set 54
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27924 thread 120 bound to OS proc set 56
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27923 thread 119 bound to OS proc set 55
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27925 thread 121 bound to OS proc set 57
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27927 thread 123 bound to OS proc set 59
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27928 thread 124 bound to OS proc set 60
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27926 thread 122 bound to OS proc set 58
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27929 thread 125 bound to OS proc set 61
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27930 thread 126 bound to OS proc set 62
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27931 thread 127 bound to OS proc set 63
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27932 thread 128 bound to OS proc set 0
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27586 thread 129 bound to OS proc set 1
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27935 thread 132 bound to OS proc set 4
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27934 thread 131 bound to OS proc set 3
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27936 thread 133 bound to OS proc set 5
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27933 thread 130 bound to OS proc set 2
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27938 thread 135 bound to OS proc set 7
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27939 thread 136 bound to OS proc set 8
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27937 thread 134 bound to OS proc set 6
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27940 thread 137 bound to OS proc set 9
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27941 thread 138 bound to OS proc set 10
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27944 thread 141 bound to OS proc set 13
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27942 thread 139 bound to OS proc set 11
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27943 thread 140 bound to OS proc set 12
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27945 thread 142 bound to OS proc set 14
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27946 thread 143 bound to OS proc set 15
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27947 thread 144 bound to OS proc set 16
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27950 thread 147 bound to OS proc set 19
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27948 thread 145 bound to OS proc set 17
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27949 thread 146 bound to OS proc set 18
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27951 thread 148 bound to OS proc set 20
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27952 thread 149 bound to OS proc set 21
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27954 thread 151 bound to OS proc set 23
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27955 thread 152 bound to OS proc set 24
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27953 thread 150 bound to OS proc set 22
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27958 thread 155 bound to OS proc set 27
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27956 thread 153 bound to OS proc set 25
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27957 thread 154 bound to OS proc set 26
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27959 thread 156 bound to OS proc set 28
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27962 thread 159 bound to OS proc set 31
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27960 thread 157 bound to OS proc set 29
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27961 thread 158 bound to OS proc set 30
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27963 thread 160 bound to OS proc set 32
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27964 thread 161 bound to OS proc set 33
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27966 thread 163 bound to OS proc set 35
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27965 thread 162 bound to OS proc set 34
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27968 thread 165 bound to OS proc set 37
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27967 thread 164 bound to OS proc set 36
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27969 thread 166 bound to OS proc set 38
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27970 thread 167 bound to OS proc set 39
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27971 thread 168 bound to OS proc set 40
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27973 thread 170 bound to OS proc set 42
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27972 thread 169 bound to OS proc set 41
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27974 thread 171 bound to OS proc set 43
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27976 thread 173 bound to OS proc set 45
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27975 thread 172 bound to OS proc set 44
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27977 thread 174 bound to OS proc set 46
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27978 thread 175 bound to OS proc set 47
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27979 thread 176 bound to OS proc set 48
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27980 thread 177 bound to OS proc set 49
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27981 thread 178 bound to OS proc set 50
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27982 thread 179 bound to OS proc set 51
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27983 thread 180 bound to OS proc set 52
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27985 thread 182 bound to OS proc set 54
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27984 thread 181 bound to OS proc set 53
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27987 thread 184 bound to OS proc set 56
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27986 thread 183 bound to OS proc set 55
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27989 thread 186 bound to OS proc set 58
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27988 thread 185 bound to OS proc set 57
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27990 thread 187 bound to OS proc set 59
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27991 thread 188 bound to OS proc set 60
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27992 thread 189 bound to OS proc set 61
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27995 thread 192 bound to OS proc set 0
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27993 thread 190 bound to OS proc set 62
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27994 thread 191 bound to OS proc set 63
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27997 thread 194 bound to OS proc set 2
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27996 thread 193 bound to OS proc set 1
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28000 thread 197 bound to OS proc set 5
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27998 thread 195 bound to OS proc set 3
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27999 thread 196 bound to OS proc set 4
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28001 thread 198 bound to OS proc set 6
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28002 thread 199 bound to OS proc set 7
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28003 thread 200 bound to OS proc set 8
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28006 thread 203 bound to OS proc set 11
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28004 thread 201 bound to OS proc set 9
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28005 thread 202 bound to OS proc set 10
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28007 thread 204 bound to OS proc set 12
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28008 thread 205 bound to OS proc set 13
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28009 thread 206 bound to OS proc set 14
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28012 thread 209 bound to OS proc set 17
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28010 thread 207 bound to OS proc set 15
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28011 thread 208 bound to OS proc set 16
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28015 thread 212 bound to OS proc set 20
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28013 thread 210 bound to OS proc set 18
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28014 thread 211 bound to OS proc set 19
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28016 thread 213 bound to OS proc set 21
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28018 thread 215 bound to OS proc set 23
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28017 thread 214 bound to OS proc set 22
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28020 thread 217 bound to OS proc set 25
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28021 thread 218 bound to OS proc set 26
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28019 thread 216 bound to OS proc set 24
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28022 thread 219 bound to OS proc set 27
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28023 thread 220 bound to OS proc set 28
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28024 thread 221 bound to OS proc set 29
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28025 thread 222 bound to OS proc set 30
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28026 thread 223 bound to OS proc set 31
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28027 thread 224 bound to OS proc set 32
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28030 thread 227 bound to OS proc set 35
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28028 thread 225 bound to OS proc set 33
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28029 thread 226 bound to OS proc set 34
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28032 thread 229 bound to OS proc set 37
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28031 thread 228 bound to OS proc set 36
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28033 thread 230 bound to OS proc set 38
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28036 thread 233 bound to OS proc set 41
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28034 thread 231 bound to OS proc set 39
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28035 thread 232 bound to OS proc set 40
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28037 thread 234 bound to OS proc set 42
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28041 thread 238 bound to OS proc set 46
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28038 thread 235 bound to OS proc set 43
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28039 thread 236 bound to OS proc set 44
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28040 thread 237 bound to OS proc set 45
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28044 thread 241 bound to OS proc set 49
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28043 thread 240 bound to OS proc set 48
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28042 thread 239 bound to OS proc set 47
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28045 thread 242 bound to OS proc set 50
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28047 thread 244 bound to OS proc set 52
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28046 thread 243 bound to OS proc set 51
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28048 thread 245 bound to OS proc set 53
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28049 thread 246 bound to OS proc set 54
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28050 thread 247 bound to OS proc set 55
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28051 thread 248 bound to OS proc set 56
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28054 thread 251 bound to OS proc set 59
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28052 thread 249 bound to OS proc set 57
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28053 thread 250 bound to OS proc set 58
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28056 thread 253 bound to OS proc set 61
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28055 thread 252 bound to OS proc set 60
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28057 thread 254 bound to OS proc set 62
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 28058 thread 255 bound to OS proc set 63
+DEEPMD INFO    training data with min nbor dist: 0.7870170319630952
+DEEPMD INFO    training data with max nbor size: [538]
+DEEPMD INFO     _____               _____   __  __  _____           _     _  _   
+DEEPMD INFO    |  __ \             |  __ \ |  \/  ||  __ \         | |   (_)| |  
+DEEPMD INFO    | |  | |  ___   ___ | |__) || \  / || |  | | ______ | | __ _ | |_ 
+DEEPMD INFO    | |  | | / _ \ / _ \|  ___/ | |\/| || |  | ||______|| |/ /| || __|
+DEEPMD INFO    | |__| ||  __/|  __/| |     | |  | || |__| |        |   < | || |_ 
+DEEPMD INFO    |_____/  \___| \___||_|     |_|  |_||_____/         |_|\_\|_| \__|
+DEEPMD INFO    Please read and cite:
+DEEPMD INFO    Wang, Zhang, Han and E, Comput.Phys.Comm. 228, 178-184 (2018)
+DEEPMD INFO    installed to:         /home/conda/feedstock_root/build_artifacts/deepmd-kit_1663923506439/work/_skbuild/linux-x86_64-3.10/cmake-install
+DEEPMD INFO    source :              v2.1.5
+DEEPMD INFO    source brach:         HEAD
+DEEPMD INFO    source commit:        6e3d4a62
+DEEPMD INFO    source commit at:     2022-09-23 16:10:28 +0800
+DEEPMD INFO    build float prec:     double
+DEEPMD INFO    build variant:        cpu
+DEEPMD INFO    build with tf inc:    /home/luowh35/deepmd-kit2/lib/python3.10/site-packages/tensorflow/include;/home/luowh35/deepmd-kit2/include
+DEEPMD INFO    build with tf lib:    
+DEEPMD INFO    ---Summary of the training---------------------------------------
+DEEPMD INFO    running on:           cn5
+DEEPMD INFO    computing device:     cpu:0
+DEEPMD INFO    CUDA_VISIBLE_DEVICES: unset
+DEEPMD INFO    Count of visible GPU: 0
+DEEPMD INFO    num_intra_threads:    16
+DEEPMD INFO    num_inter_threads:    4
+DEEPMD INFO    -----------------------------------------------------------------
+DEEPMD INFO    ---Summary of DataSystem: training     -----------------------------------------------
+DEEPMD INFO    found 14 system(s):
+DEEPMD INFO                                        system  natoms  bch_sz   n_bch   prob  pbc
+DEEPMD INFO    -- upercell.01x01x01/02.md/sys-0032/deepmd      32       1    1000  0.373    T
+DEEPMD INFO    -- upercell.01x01x01/02.md/sys-0032/deepmd      32       1      50  0.019    T
+DEEPMD INFO    -- upercell.01x01x01/02.md/sys-0032/deepmd      32       1     800  0.299    T
+DEEPMD INFO    -- upercell.01x01x01/02.md/sys-0032/deepmd      32       1     380  0.142    T
+DEEPMD INFO    -- upercell.01x01x01/02.md/sys-0032/deepmd      32       1      50  0.019    T
+DEEPMD INFO      ../data.iters/iter.000001/02.fp/data.000      32       1      20  0.007    T
+DEEPMD INFO      ../data.iters/iter.000002/02.fp/data.000      32       1     100  0.037    T
+DEEPMD INFO      ../data.iters/iter.000003/02.fp/data.001      32       1     100  0.037    T
+DEEPMD INFO      ../data.iters/iter.000004/02.fp/data.001      32       1      30  0.011    T
+DEEPMD INFO      ../data.iters/iter.000004/02.fp/data.000      32       1      30  0.011    T
+DEEPMD INFO      ../data.iters/iter.000005/02.fp/data.001      32       1      30  0.011    T
+DEEPMD INFO      ../data.iters/iter.000005/02.fp/data.000      32       1      30  0.011    T
+DEEPMD INFO      ../data.iters/iter.000006/02.fp/data.001      32       1      30  0.011    T
+DEEPMD INFO      ../data.iters/iter.000006/02.fp/data.000      32       1      30  0.011    T
+DEEPMD INFO    --------------------------------------------------------------------------------------
+DEEPMD INFO    training without frame parameter
+DEEPMD INFO    data stating... (this step may take long time)
+OMP: Info #254: KMP_AFFINITY: pid 27210 tid 27210 thread 256 bound to OS proc set 0
+DEEPMD INFO    built lr
+DEEPMD INFO    built network
+DEEPMD INFO    built training
+DEEPMD INFO    initialize model from scratch
+DEEPMD INFO    start training at lr 1.00e-03 (== 1.00e-03), decay_step 300, decay_rate 0.950000, final lr will be 3.51e-08
